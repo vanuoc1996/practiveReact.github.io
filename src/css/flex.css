@@ -1,0 +1,130 @@
+.menuHome {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+}
+
+.logoHome {
+    height: 50px;
+    width: auto;
+    padding-right: 100px;
+}
+.logoHome :hover{
+    background-color: darkcyan;
+}
+
+.controller {
+    background-color: white;
+    /* flex-grow: 3; */
+    /* top: 50px; */
+    height: 100%;
+    width: 280px;
+    margin-top: 50px;
+    text-align: center;
+    position: fixed;
+    background-color: #EEE9E9;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 70%;
+    margin: 5px 60px 50px 375px;
+    height: 100%;
+    background-color: gray;
+}
+
+.footer {
+    background-color: brown;
+    height: 50px;
+    margin: 0px 0px 0px 0px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    padding: auto auto auto auto;
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.flex2 {
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+}
+
+.navbar {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    float: left;
+}
+
+.navbar :hover {
+    color: white;
+    background-color: darkcyan;
+}
+
+.avata {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.drirexConten {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.drirex {
+    padding: 10px;
+    border-style: ridge;
+    margin: 1px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: auto;
+}
+.ListBT {
+   
+    padding: 10px 50px 10px 50px;
+    border-style: ridge;
+    margin: 50px 1px 50px 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: auto;
+}
+
+.drirex:hover {
+    color: white;
+    background-color: darkcyan;
+}
+
+.drirex:active {
+    color: white;
+    background-color: coral;
+}
+.ListBT:hover {
+    color: white;
+    background-color: darkcyan;
+}
+
+.ListBT:active {
+    color: white;
+    background-color: coral;
+}
+

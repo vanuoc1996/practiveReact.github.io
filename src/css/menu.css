@@ -1,0 +1,43 @@
+.menu{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    font-size: 15px;
+    line-height: 1.65;
+
+    margin-right: 3px;
+    color: rgb(37, 16, 16);
+    
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.onbottom{
+    position: fixed;
+    bottom: 0;
+}
+
+.menu:hover .menutext {
+    visibility: visible;
+}
+
+
+.menutext{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+     
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
